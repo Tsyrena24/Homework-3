@@ -117,11 +117,11 @@ public class Main {
         int two = 2;
         int free = 10;
         if (free > one && one > two) {
-            System.out.println("Третье значение больше");}
+            System.out.println("Третье значение больше - " + free);}
         else if (one > two && two > free) {
-            System.out.println("Первое значение больше");}
+            System.out.println("Первое значение больше - " + one);}
         else {
-            System.out.println("Второе значение больше");
+            System.out.println("Второе значение больше - " + free);
         }
     }
 }
